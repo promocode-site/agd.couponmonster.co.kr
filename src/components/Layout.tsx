@@ -1,5 +1,8 @@
-import { Link, useLocation } from "react-router-dom";
-import { useState } from "react";
+import { Link, Outlet, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+const queryClient = new QueryClient();
 
 const AFFILIATE_LINK = "http://app.ac/hqp46L253";
 
@@ -10,11 +13,21 @@ const navItems = [
   { path: "/faq", label: "FAQ & 트러블슈팅" },
 ];
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
+export default function Layout() {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
+    <QueryClientProvider client={queryClient}>
+    <ScrollToTop />
     <div className="min-h-screen flex flex-col">
       <header className="sticky top-0 z-50 border-b bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
         <nav className="container flex items-center justify-between h-16">
@@ -75,7 +88,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         )}
       </header>
 
-      <main className="flex-1">{children}</main>
+      <main className="flex-1"><Outlet /></main>
 
       <footer className="border-t bg-card mt-16">
         <div className="container py-10">
@@ -107,7 +120,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     아고다 할인 페이지 바로가기
                   </a>
                 </li>
-                <li className="text-muted-foreground">업데이트: 2026년 6월</li>
+                <li className="text-muted-foreground">업데이트: 2026년 7월</li>
               </ul>
             </div>
           </div>
@@ -118,5 +131,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </div>
       </footer>
     </div>
+    </QueryClientProvider>
   );
 }
