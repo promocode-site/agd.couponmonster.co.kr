@@ -221,7 +221,7 @@ export default function Compare() {
                 <tbody>
                   <tr><td>1~2월</td><td>설날/구정 프로모션</td><td>동남아·일본 숙소 집중 할인</td></tr>
                   <tr><td>3~4월</td><td>봄 시즌 / 더블데이</td><td>벚꽃 여행지 특가</td></tr>
-                  <tr><td>5월</td><td>아고다 창립 기념</td><td>대규모 할인 (20주년 등)</td></tr>
+                  <tr><td>7월</td><td>아고다 창립 기념</td><td>대규모 할인 (20주년 등)</td></tr>
                   <tr><td>6~7월</td><td>여름 휴가 프로모션</td><td>해변·리조트 집중</td></tr>
                   <tr><td>8~9월</td><td>가을 시즌 세일</td><td>유럽·일본 단풍</td></tr>
                   <tr><td>10월</td><td>핼러윈 프로모션</td><td>테마파크 숙소 특가</td></tr>
