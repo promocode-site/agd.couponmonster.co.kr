@@ -17,7 +17,7 @@ export default function Compare() {
         "description":"카드사별 아고다 할인 비교표, OTA 비교, 할인 극대화 전략, AgodaVIP 등급 완전 가이드",
         "url":"https://agd.couponmonster.co.kr/compare",
         "author":{"@type":"Organization","name":"아고다 쿠폰"},
-        "datePublished":"2026-06-01","dateModified":"2026-06-07"
+        "datePublished":"2026-06-01","dateModified":"2026-08-04"
       })}} />
 
       <section className="hero-section">
@@ -50,13 +50,13 @@ export default function Compare() {
                 </tr>
               </thead>
               <tbody>
-                <tr><td className="font-bold">삼성카드</td><td><span className="badge-discount">7%</span></td><td>이탈리아·말레이시아·인도네시아 10%</td><td>2026.06.30</td><td>신용카드</td><td className="text-xs">LINK 혜택/전용 페이지</td></tr>
-                <tr><td className="font-bold">신한카드</td><td><span className="badge-discount">7%</span></td><td>말레이시아·인도네시아·이탈리아 10%</td><td>2026.06.30</td><td>신용카드</td><td className="text-xs">선착순 자동적용</td></tr>
-                <tr><td className="font-bold">우리카드</td><td><span className="badge-discount">7%</span></td><td>—</td><td>2026.06.30</td><td>신용카드</td><td className="text-xs">핀번호 입력</td></tr>
-                <tr><td className="font-bold">하나카드</td><td><span className="badge-discount">7%</span></td><td>—</td><td>2026.06.30</td><td>신용카드</td><td className="text-xs">선착순 마감</td></tr>
-                <tr><td className="font-bold">현대카드</td><td><span className="badge-discount">7%</span></td><td>최대 10%</td><td>2026.06.30</td><td>신용카드</td><td className="text-xs">—</td></tr>
+                <tr><td className="font-bold">삼성카드</td><td><span className="badge-discount">7%</span></td><td>이탈리아·말레이시아·인도네시아 10%</td><td>2026.08.31</td><td>신용카드</td><td className="text-xs">LINK 혜택/전용 페이지</td></tr>
+                <tr><td className="font-bold">신한카드</td><td><span className="badge-discount">7%</span></td><td>말레이시아·인도네시아·이탈리아 10%</td><td>2026.08.31</td><td>신용카드</td><td className="text-xs">선착순 자동적용</td></tr>
+                <tr><td className="font-bold">우리카드</td><td><span className="badge-discount">7%</span></td><td>—</td><td>2026.08.31</td><td>신용카드</td><td className="text-xs">핀번호 입력</td></tr>
+                <tr><td className="font-bold">하나카드</td><td><span className="badge-discount">7%</span></td><td>—</td><td>2026.08.31</td><td>신용카드</td><td className="text-xs">선착순 마감</td></tr>
+                <tr><td className="font-bold">현대카드</td><td><span className="badge-discount">7%</span></td><td>최대 10%</td><td>2026.08.31</td><td>신용카드</td><td className="text-xs">—</td></tr>
                 <tr><td className="font-bold">KB국민카드</td><td><span className="badge-discount">7%</span></td><td>이탈리아·말레이시아·인도네시아 10%</td><td>확인 필요</td><td>신용카드</td><td className="text-xs">—</td></tr>
-                <tr><td className="font-bold">NH농협카드</td><td><span className="badge-discount">7%</span></td><td>말레이시아·스페인·이탈리아 10%</td><td>2026.06.30</td><td>신용+체크</td><td className="text-xs badge-success">체크카드 가능!</td></tr>
+                <tr><td className="font-bold">NH농협카드</td><td><span className="badge-discount">7%</span></td><td>말레이시아·스페인·이탈리아 10%</td><td>2026.08.31</td><td>신용+체크</td><td className="text-xs badge-success">체크카드 가능!</td></tr>
                 <tr><td className="font-bold">BC카드</td><td><span className="badge-discount">7%</span></td><td>이탈리아·말레이시아·인도네시아 10%</td><td>확인 필요</td><td>신용카드</td><td className="text-xs">—</td></tr>
                 <tr className="bg-muted"><td className="font-bold">토스뱅크</td><td><span className="badge-discount">7%</span></td><td>한국·태국·베트남 10%</td><td>2028.08.31</td><td>체크카드</td><td className="text-xs badge-success">수수료 무료+장기!</td></tr>
                 <tr><td className="font-bold">마스터카드</td><td><span className="badge-discount">8~15%</span></td><td>월드엘리트 15% / 월드 10%</td><td>분기별 갱신</td><td>등급별</td><td className="text-xs">등급별 차등</td></tr>
