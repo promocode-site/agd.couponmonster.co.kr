@@ -120,7 +120,7 @@ export default function Layout() {
                     아고다 할인 페이지 바로가기
                   </a>
                 </li>
-                <li className="text-muted-foreground">업데이트: 2026년 8월</li>
+                <li className="text-muted-foreground">업데이트: 2026년 9월</li>
               </ul>
             </div>
           </div>
