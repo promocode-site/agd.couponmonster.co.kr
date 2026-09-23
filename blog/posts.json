@@ -4,5 +4,20 @@
   "baseUrl": "https://agd.couponmonster.co.kr",
   "postUrlPattern": "/blog/{slug}/",
   "updated": "2026-09-23",
-  "posts": []
+  "posts": [
+    {
+      "title": "아고다 쿠폰이 적용 안 될 때 원인과 해결법",
+      "slug": "agoda-coupon-not-working-fix",
+      "date": "2026-09-23",
+      "description": "아고다에서 쿠폰 코드가 적용되지 않을 때 흔히 발생하는 원인과 예약 전 확인해야 할 조건, 코드 없이도 할인받을 수 있는 방법까지 자세히 정리했습니다.",
+      "image": "https://images.unsplash.com/photo-1542744095-291d1f67b221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5NTczfDB8MXxzZWFyY2h8MXx8aG90ZWwlMjBib29raW5nJTIwbGFwdG9wJTIwc2NyZWVufGVufDF8MHx8fDE3OTAxNTA3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": {
+        "source": "unsplash",
+        "authorName": "Campaign Creators",
+        "authorUrl": "https://unsplash.com/@campaign_creators?utm_source=blog-admin&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/person-using-macbook-pro-OGOWDVLbMSc?utm_source=blog-admin&utm_medium=referral",
+        "siteUrl": "https://unsplash.com?utm_source=blog-admin&utm_medium=referral"
+      }
+    }
+  ]
 }
