@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agd.couponmonster.co.kr/sitemap.xml
