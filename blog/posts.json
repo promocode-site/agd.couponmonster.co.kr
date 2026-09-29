@@ -3,8 +3,15 @@
   "siteName": "아고다 할인코드",
   "baseUrl": "https://agd.couponmonster.co.kr",
   "postUrlPattern": "/blog/{slug}/",
-  "updated": "2026-09-23",
+  "updated": "2026-09-29",
   "posts": [
+    {
+      "title": "아고다 할인코드, 앱과 웹 중 어디서 예약해야 더 저렴할까",
+      "slug": "agoda-app-vs-web-which-cheaper",
+      "date": "2026-09-29",
+      "description": "아고다 앱 예약과 웹 예약의 가격 차이, 할인코드 적용법, 네이버페이·토스페이 결제 할인까지 비교해서 더 저렴하게 예약하는 방법을 알려드립니다.",
+      "image": ""
+    },
     {
       "title": "아고다 쿠폰이 적용 안 될 때 원인과 해결법",
       "slug": "agoda-coupon-not-working-fix",
